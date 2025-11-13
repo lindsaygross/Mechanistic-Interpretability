@@ -65,4 +65,4 @@ The project reinforced that even tiny networks form meaningful intermediates: a 
 
 ---
 
-#### Used ChatGPT5 at 2:29 pm on Nov 6th 2025 to help format this README.md Script; updated with fresh details on Nov 7th 2025.
+#### Used ChatGPT5 at 2:29 pm on Nov 6th 2025 to help format this README.md Script; updated with new details on Nov 7th and Nov 13th 2025.
