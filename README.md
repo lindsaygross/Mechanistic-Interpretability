@@ -16,10 +16,10 @@ Tiny models can still hide surprisingly rich internal structure. This repo conta
 ## Assignment Mapping
 | Assignment Part | What’s in the Notebook |
 | --- | --- |
-| Part 1 – Setup | Data generator, model definition, and training loop for the vowel task |
-| Part 2 – Explore | Activation statistics, letter selectivity probe, position tuning, and ablations |
-| Part 3 – Explain | Narrative + plots describing the “vowel detector” neuron and supporting evidence |
-| Part 4 – Reflect | Reflection on findings, surprises, and possible next experiments |
+| Setup | Data generator, model definition, and training loop for the vowel task |
+| Explore | Activation statistics, letter selectivity probe, position tuning, and ablations |
+| Explain | Narrative + plots describing the “vowel detector” neuron and supporting evidence |
+| Reflect | Reflection on findings, surprises, and possible next experiments |
 
 ---
 
@@ -31,7 +31,7 @@ Tiny models can still hide surprisingly rich internal structure. This repo conta
 ---
 
 ## Reproducing Results
-### Option A: Google Colab (recommended)
+### Option A: Google Colab
 1. Open the notebook directly in Colab: `mechanistic_interpretability.ipynb`.
 2. Runtime → Run all. Everything (data creation, training, plots) happens in one pass.
 
@@ -56,11 +56,10 @@ Tiny models can still hide surprisingly rich internal structure. This repo conta
 | --- | --- |
 | `mechanistic_interpretability.ipynb` | Full workflow: data generation, training, probing, plots, explanation, reflection |
 | `mechanistic_interp_starter.ipynb` | Provided starter template from the course (left untouched for reference) |
-| `README.md` | You are here—project overview and reproduction instructions |
 
 ---
 
-## Reflection (TL;DR)
+## Reflection (TLDR)
 The project reinforced that even tiny networks form meaningful intermediates: a single neuron encoded “is there a vowel anywhere?” without caring about position. What surprised me was the resilience of the model when that neuron was ablated, hinting that redundancy emerges quickly. Next, I want to test variants where “Y” sometimes counts as a vowel or where the hidden layer is shrunk to see if interpretability becomes even clearer.
 
 ---
